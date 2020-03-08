@@ -1,17 +1,19 @@
-#!/usr/bin/python
+#! /usr/bin/env python
 
-# https://projecteuler.net/problem=1
-# If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
-# The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
-# Answer: 266333
 
+""" https://projecteuler.net/problem=1
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
+The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
+Answer: 266333
+"""
 
 def main():
-    numbers = composer()
+    numbers = compose_list()
     print(adding(numbers))
 
 
-def composer():
+def compose_list():
+    """first adding the numbers that are multiples of 3 and 5"""
     list = []
     for i in range(1000):
         if i % 3 == 0:
@@ -22,6 +24,7 @@ def composer():
 
 
 def adding(array):
+    """then simply add all the numbers"""
     answer = 0
     for i in array:
         answer += i
