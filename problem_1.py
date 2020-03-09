@@ -10,7 +10,7 @@ Answer: 233168
 
 def main():
     numbers = compose_list(1000)
-    print(adding(numbers))
+    return adding(numbers)
 
 
 def compose_list(n):
