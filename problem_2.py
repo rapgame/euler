@@ -11,12 +11,31 @@ find the sum of the even-valued terms.
 
 
 def main():
-    print(problem2())
+    print(fibonacci_sequence(5)) # test
+    print(fibonacci_sequence(10)) # test
+    print(fibonacci_sequence(4_000_000))
 
 
-def problem2():
+def fibonacci_sequence(n):
     """implement problem 2"""
-    return None
+    a = 0
+    b = 1
+    total = 0
+    if a < 0:
+        print("input smaller than zero")
+    elif n == 0:
+        return a
+    elif n == 1:
+        return b
+    else:
+        while total < n:
+            c = a + b
+            a = b
+            b = c
+            if b % 2 == 0:
+                total += b
+            # print(b)
+    return total
 
 
 if __name__ == "__main__":
