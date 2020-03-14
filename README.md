@@ -1,11 +1,13 @@
 # euler
 
 The famous project Euler 
+
 https://projecteuler.net/
 
 ## Getting Started
 
 Just install Python 3 and run it
+
 
 ### Prerequisites
 
@@ -24,5 +26,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 The people behind:
+
 https://projecteuler.net/
+
 Thanks for reading!
