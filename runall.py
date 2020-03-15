@@ -7,10 +7,7 @@ import problem_3
 import problem_4
 import problem_5
 import problem_6
-#import problem_7
-#import problem_8
-#import problem_9
-#import problem_10
+import problem_7
 
 
 def main():
@@ -30,10 +27,7 @@ def first_5():
 
 def next_5():
     print("Problem 6: " + str(problem_6.main()))
-    #print("Problem 7: " + str(problem_7.main()))
-    #print("Problem 8: " + str(problem_8.main()))
-    #print("Problem 9: " + str(problem_9.main()))
-    #print("Problem 10: " + str(problem_10.main()))
+    print("Problem 7: " + str(problem_7.main()))
 
 
 if __name__ == "__main__":
