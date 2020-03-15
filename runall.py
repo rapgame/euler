@@ -12,7 +12,7 @@ import problem_7
 
 def main():
     #first_5()
-    next_5()
+    next_2()
 
 
 def first_5():
@@ -25,7 +25,7 @@ def first_5():
     print("Problem 5: " + str(problem_5.main()))
 
 
-def next_5():
+def next_2():
     print("Problem 6: " + str(problem_6.main()))
     print("Problem 7: " + str(problem_7.main()))
 
